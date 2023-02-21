@@ -8,6 +8,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         print("Second Commit")
-        hello abdo
+        print("forth Commit")
     }
 }
