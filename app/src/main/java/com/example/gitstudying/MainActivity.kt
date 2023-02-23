@@ -8,5 +8,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         print("5 Commit")
+        print("5 Stash")
+        print("Experimental  commit")
     }
 }
