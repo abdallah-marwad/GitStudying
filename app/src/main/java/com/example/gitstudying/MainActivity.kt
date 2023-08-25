@@ -7,8 +7,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        print("5 Commit")
-        print("5 Stash")
-        print("Experimental  commit")
+        print("Main branch")
+        print("Main new branch")
+
     }
 }
