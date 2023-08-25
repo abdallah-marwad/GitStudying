@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         print("Main branch")
         print("Main new branch")
+        print("Main new branch")
 
     }
 }
