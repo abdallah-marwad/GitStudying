@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         print("Main branch")
-        print("Main branch")
+        print("commit Main branch old")
 
     }
 }
