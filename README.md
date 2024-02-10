@@ -24,12 +24,9 @@ and put it instead of the existing one like pic 3
    <img src ="https://github.com/abdallah-marwad/E-Commerce_Application/assets/115652759/7817c61c-feba-4caf-b33c-90500294830c" width="200" >
 </div>
 
-- To change the app name go to res/values/strings.xml then change the name inside the tage name    
- <string name="app_name">Your new name</string> .  (note : choose the structure type 'android' like the pic 1 ).
-- To change the base url go to strings.xml like previous step then chanege the url inside the tage 
-<string name="default_server_url">https://api.httpsms.com</string>
-- To change the link in the main screen go to strings.xml like previous step then chanege the url inside the tage 
-<string name="get_your_api_key">Open\nhttp://hypersender.com\nto get your API key</string>
+- To change the app name go to res/values/strings.xml then change the name inside the tage name="app_name" .  (note : choose the structure type 'android' like the pic 1 ).
+- To change the base url go to strings.xml like previous step then chanege the url inside the tage name="default_server_url"
+- To change the link in the main screen go to strings.xml like previous step then chanege the url inside the tage  name="get_your_api_key"
 - To change the app pic go to drawable/logo_cropped delete this image and add new one by drag and drop,the new one must be the same name (logo_cropped)
 then follow this video : https://www.youtube.com/watch?v=bJjHgWjiAKw
 
