@@ -58,5 +58,11 @@ with fun scheduleHeartbeatWorker(this) this called once the screan is created wh
 - add localTime and batteryPercentage to HttpSmsApiService calss inside the function with name of : storeHeartbeat ()
 and make it called instead of the old one.
 
+-to build apk from android studio follow the pic 4 
+**pic 4 *
+<div>
+   <img src ="https://github.com/abdallah-marwad/GitStudying/assets/115652759/4d3fd045-4a49-4efd-8e0d-07dad1e383fe" width="200" >
+</div>
+
 
 
