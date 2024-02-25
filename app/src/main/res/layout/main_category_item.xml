@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentArea"
+    android:layout_width="55dp"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="4sp"
+    android:layout_marginStart="4sp"
+    android:layout_marginEnd="8dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="4sp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@color/shimmer_color"
+        app:cardCornerRadius="4sp">
+
+        <ImageView
+            android:id="@+id/imageCategory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+             />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/txtCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4sp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="Watches and accesossires"
+        android:textColor="@color/black"
+        android:textSize="8dp" />
+</LinearLayout>
+
+

@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.example.gitstudying'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.gitstudying"
@@ -41,4 +41,18 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.7.0"
+    // Kotlin + coroutines
+    implementation "androidx.work:work-runtime-ktx:2.9.0"
+    //shimmer
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.15.1'
+
+    implementation ("com.github.AgoraIO-Community.VideoUIKit-Android:final:v4.0.1")
+    implementation ("io.agora.rtc:full-sdk:4.1.1")
+    implementation 'commons-codec:commons-codec:1.15'
+
+
 }
